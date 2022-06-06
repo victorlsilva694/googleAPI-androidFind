@@ -45,7 +45,7 @@ router.get(
   "/google/success",
   passport.authenticate("google", { failureRedirect: "/failed" }),
   (req: Request, res: Response) => {
-    res.redirect("/success");
+    res.send("success");
   }
 );
 
