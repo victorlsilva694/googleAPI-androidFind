@@ -40,9 +40,6 @@ router.get(
   }
 );
 
-router.get("/success", (req, res) => {
-  res.send(`Welcome`);
-});
 
 router.get(
   "/google/success",
