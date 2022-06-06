@@ -52,6 +52,5 @@ router.get(
   }
 );
 
-// router.get("/login/redirect", passport.authenticate("google"), userLoggin);
 
 export const Routers: Router = router;
